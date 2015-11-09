@@ -1,0 +1,85 @@
+{
+    "$content": [
+        {
+            "Title": {
+                "value": "There"
+            },
+            "Text": {
+                "value": "Okay, you are there. It is not so bad.\n{Start|You may return.}"
+            },
+            "Position": {
+                "value": {
+                    "x": 112.499984741211,
+                    "y": -38.2499923706055
+                }
+            },
+            "PassageStyle": {
+                "value": null
+            },
+            "StyleMap": {
+
+            }
+        },
+        {
+            "Title": {
+                "value": "Where"
+            },
+            "Text": {
+                "value": "Decent."
+            },
+            "Position": {
+                "value": {
+                    "x": -196.5,
+                    "y": 60.7499847412109
+                }
+            },
+            "PassageStyle": {
+                "value": null
+            },
+            "StyleMap": {
+
+            }
+        },
+        {
+            "Title": {
+                "value": "Other"
+            },
+            "Text": {
+                "value": "It's dark here.\n{Start|I am afraid.}"
+            },
+            "Position": {
+                "value": {
+                    "x": -95.2499923706055,
+                    "y": -102.749992370605
+                }
+            },
+            "PassageStyle": {
+                "value": null
+            },
+            "StyleMap": {
+
+            }
+        },
+        {
+            "Title": {
+                "value": "Start"
+            },
+            "Text": {
+                "value": "Hey. Psst. Do you want to go {There|there}? Or {Other|the other place}...?"
+            },
+            "Position": {
+                "value": {
+                    "x": 174.749984741211,
+                    "y": 144.750030517578
+                }
+            },
+            "PassageStyle": {
+                "value": null
+            },
+            "StyleMap": {
+
+            }
+        }
+    ],
+    "$type": "UniRx.ReactiveCollection`1[[Skein.Passage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+}

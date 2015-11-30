@@ -1,0 +1,147 @@
+{
+    "$content": [
+        {
+            "Title": {
+                "value": "Start"
+            },
+            "Text": {
+                "value": "Butts. Butts. Butts. Butts. [Butts]."
+            },
+            "Position": {
+                "value": {
+                    "x": 192.750015258789,
+                    "y": 179.373550415039
+                }
+            },
+            "PassageTextStyle": {
+                "value": null
+            },
+            "PassageLinkStyle": {
+                "value": null
+            },
+            "EventSheet": [
+                {
+                    "conditions": [
+                        {
+                            "methodId": "Skein.PassageDisplayText:WasClicked:System.String",
+                            "caller": "95c0e12f-d4da-41d7-bb5b-7127ad249ae2",
+                            "args": [
+                                {
+                                    "$content": "Butts",
+                                    "$type": "System.String"
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "methodId": "Skein.Story:Goto:System.String",
+                            "caller": "577a31e8-e670-43e5-ace8-cfea72200f51",
+                            "args": [
+                                {
+                                    "$content": "Butts",
+                                    "$type": "System.String"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "conditions": [
+                        {
+                            "methodId": "Skein.PassageDisplayText:WasHovered:System.String",
+                            "caller": "95c0e12f-d4da-41d7-bb5b-7127ad249ae2",
+                            "args": [
+                                {
+                                    "$content": "Butts",
+                                    "$type": "System.String"
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "methodId": "Farter:Fart:",
+                            "caller": "077d44c4-fa0b-4ecc-bca9-f8529040ca7d",
+                            "args": []
+                        },
+                        {
+                            "methodId": "ColorChanger:SetRandomColor:",
+                            "caller": "0328c8b1-39f7-4d4b-804b-a4fb6835aa04",
+                            "args": []
+                        },
+                        {
+                            "methodId": "Sproing:DoSproing:System.Single,System.Single",
+                            "caller": "50c456cd-3e63-4ec3-891e-eebc7654cb6a",
+                            "args": [
+                                {
+                                    "$content": 1.5,
+                                    "$type": "System.Single"
+                                },
+                                {
+                                    "$content": 0.800000011920929,
+                                    "$type": "System.Single"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "StyleMap": {
+
+            }
+        },
+        {
+            "Title": {
+                "value": "Butts"
+            },
+            "Text": {
+                "value": "Hello!? This is Butts. Yes, this is John Butts speaking. Can I help you?\n\n[Start|Hang up.]"
+            },
+            "Position": {
+                "value": {
+                    "x": 332.250061035156,
+                    "y": 88.6254577636719
+                }
+            },
+            "PassageTextStyle": {
+                "value": null
+            },
+            "PassageLinkStyle": {
+                "value": null
+            },
+            "EventSheet": [
+                {
+                    "conditions": [
+                        {
+                            "methodId": "Skein.PassageDisplayText:WasClicked:System.String",
+                            "caller": "95c0e12f-d4da-41d7-bb5b-7127ad249ae2",
+                            "args": [
+                                {
+                                    "$content": "Start",
+                                    "$type": "System.String"
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "methodId": "Skein.Story:Goto:System.String",
+                            "caller": "577a31e8-e670-43e5-ace8-cfea72200f51",
+                            "args": [
+                                {
+                                    "$content": "Start",
+                                    "$type": "System.String"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "StyleMap": {
+
+            }
+        }
+    ],
+    "$type": "UniRx.ReactiveCollection`1[[Skein.Passage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+}
